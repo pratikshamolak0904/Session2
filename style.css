@@ -5,3 +5,35 @@
     box-sizing: border-box;
     font-family: Poppins,monospace;
 }
+.header{
+    width: 100%;
+    height: 80px;
+    background: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 8%;
+    color: white;
+    box-shadow: 2px;
+}
+.header .links{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+.header .links a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.header .links button{
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #fff;
+    
+}
