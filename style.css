@@ -37,3 +37,18 @@
     border: 2px solid #fff;
     
 }
+.container1{
+    width: 100%;
+    height: 550px;
+    background: whitesmoke;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1 h2{
+    font-size: 2.5em;
+    background: linear-gradient(25deg,blueviolet,orange,darkcyan);
+    color: transparent;
+    background-clip: text;
+}
